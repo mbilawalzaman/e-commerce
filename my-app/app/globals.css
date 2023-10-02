@@ -2,6 +2,19 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer componets;
+.animateBtn {
+  @apply transition-all duration-150 ease-linear;
+}
+
+.navButton {
+  /* Common styles for all screen sizes */
+  @apply px-6 py-2 border bg-blue-400 hover:bg-blue-800 border-white rounded-full uppercase text-xs tracking-widest text-white transition-all hover:border-blue-400 hover:text-blue-400;
+  }
+
+
+
+
 :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
